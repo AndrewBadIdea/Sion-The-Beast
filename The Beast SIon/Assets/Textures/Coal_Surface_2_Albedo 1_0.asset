@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Coal_Surface_2_Albedo 1_0
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: -970805349, guid: ebe470eb61017e445869b2c1b058c42e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.929, b: 0.929, a: 1}
   m_Transform:
     e00: 1
     e01: 0
