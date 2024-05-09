@@ -8,8 +8,8 @@ public class Pause : MonoBehaviour
 
     public void PauseAction()
     {
+        Time.timeScale = !pauseMenu.activeSelf ? 0 : 1;
         pauseMenu.SetActive(!pauseMenu.activeSelf);
-        Time.timeScale = 0;
     }
 
     public void Home()

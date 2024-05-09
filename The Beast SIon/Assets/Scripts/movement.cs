@@ -76,7 +76,7 @@ public class movement : MonoBehaviour
             animator.SetBool("isDead", isDead);
 
             StartCoroutine(deathAnim());
-
+            return;
         }
 
         StartCoroutine(IFrame());
@@ -92,7 +92,7 @@ public class movement : MonoBehaviour
 
     IEnumerator deathAnim()
     {
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(5f);
 
         Debug.Log("dead");
         SceneManager.LoadScene("MainMenu");
